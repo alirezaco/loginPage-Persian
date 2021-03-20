@@ -1,0 +1,113 @@
+@font-face {
+    font-family: myFont;
+    src: url(Vazir-Thin.ttf);
+}
+
+* {
+    font-family: myFont;
+    font-size: 3vh;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.bgImg {
+    background-image: url(earth1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.gridBox {
+    display: grid;
+    grid-template: 20vh 50vh /repeat(3, 1fr);
+}
+
+.gridItem {
+    grid-area: 2/2/3/3;
+}
+
+.bgBlack {
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.bgGreen {
+    background-color: green;
+}
+
+.colorBlue {
+    color: blue;
+}
+
+.colorWhite {
+    color: white;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.width {
+    width: 18em;
+}
+
+.pading {
+    padding: 2.2em 1.5em;
+}
+
+.textLine {
+    text-decoration: none;
+}
+
+.brRadius {
+    border-radius: 0.25em;
+}
+
+.padingItem {
+    padding: 0.25em 0.3em;
+}
+
+.icon {
+    padding-top: 3%;
+    height: 100%;
+    width: 2em;
+    background-color: gray;
+    color: white;
+}
+
+.widthInpute {
+    width: 100%;
+}
+
+.height {
+    height: 2.5em;
+}
+
+.brInpute {
+    border: solid white 4px;
+}
+
+.flex {
+    display: flex;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+a:active {
+    color: blueviolet;
+}

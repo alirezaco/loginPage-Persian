@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temrin5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7dab6cf11f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="tamrin5.css">
+</head>
+
+<body class="bgImg">
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert" id="warning" style="display: none; direction: ltr; ">
+        <strong>warning!!!</strong>
+        <button type="button" class="btn-close" onclick="closeAlert()"></button>
+    </div>
+
+    <div class="alert alert-success alert-dismissible fade show" role="alert" id="success" style="display: none; direction: ltr; ">
+        <strong>success!!!</strong>
+        <button type="button" class="btn-close" onclick="closeAlert()"></button>
+    </div>
+
+    <div class="gridBox">
+        <form class="bgBlack gridItem textCenter flexCenter colorWhite pading brRadius">
+            <p>ورود به پنل کاربری</p>
+            <div class="width brRadius brInpute flex height mb-2">
+                <em class="fa fa-user icon "></em>
+                <input id="userName" class="padingItem widthInpute" type="text" placeholder="نام کاربری">
+            </div>
+            <div class="width brRadius brInpute flex height mb-2">
+                <em class="fa fa-key icon flexCenter "></em>
+                <input id="passWord" class=" padingItem widthInpute " type="password" placeholder="رمز عبور">
+            </div>
+            <button id="myEnter" class="width colorWhite bgGreen brRadius padingItem height mb-2" type="button">ورود</button>
+            <span>حساب کاربری ندارید؟ </span>
+            <a href="#" class="textLine">
+                ثبت نام
+            </a>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
